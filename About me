@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> CMS|ABOUT </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<header>
+
+    <div class="main">
+        <img src="juw_logo.png" alt="University Logo">
+        <ul>
+            <li>
+                <h1> COMPLAINT MANAGEMENT SYSTEM </h1>
+            </li>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <li><a href="Log in.html">Log in</a></li>
+        </ul>
+    </div>
+
+</header>
+
+<section class="about_us">
+
+    <body>
+
+        <div class="title">
+            <h1> ABOUT OUR COMPLAINT <br> MANAGEMENT SYSTEM </h1>
+            <p> Welcome to the University <br> Complaint Management System — a <br> digital
+                platform designed to make <br> communication between students, <br> faculty,
+                and administration easier <br> and more transparent.<br> <br>
+                
+                Our system allows users to register, <br> track, and resolve complaints <br>
+                efficiently without the hassle of <br> manual paperwork or long waiting <br>
+                times. Whether it's an issue related <br> to academics, hostel,
+                administration, <br> or campus facilities — this system <br> ensures that 
+                every concern is heard <br> and addressed in a timely manner.</p>
+        </div>
+
+        <div class="logo">
+            <img src="about_us.png">
+        </div>
+
+        <div class="about_us_purpose">
+            <h1> OUR PURPOSE </h1>
+
+            <p> The main goal of this project is to create a bridge between students <br>
+                and university authorities, ensuring that problems are resolved quickly <br>
+                and fairly. We aim to promote accountability, transparency, and student <br>
+                satisfaction within the university environment.</p>
+        </div>
+
+        <div class="about_us_feature">
+            <h1> KEY FEATURES </h1>
+
+           <ul>
+            <li> • Easy Complaint Registration - Submit your <br> complaint online with just a few clicks.</li> <br><br>
+            <li> • Real-time Tracking - Track the current status of <br> your complaint anytime. </li> <br><br>
+            <li> • Notifications & Updates - Get automatic updates <br> on complaint progress. </li> <br><br>
+            <li> • Admin Dashboard - Allows administrators to <br> manage and resolve complaints efficiently. </li> <br><br>
+            <li> • History Records - Maintain a digital record of all <br> previous complaints for future reference. </li>
+           </ul>
+
+        </div>
+
+        <div class="about_us_whymatter">
+            <h1> WHY IT MATTERS? </h1>
+
+            <p> A complaint management system empowers <br>
+                students to voice their concerns confidently while <br>
+                helping university management maintain a healthy <br>
+                and responsive campus environment. It reduces <br>
+                delays, improves communication, and ensures that <br>
+                every voice is valued.</p>
+        </div>
+
+    </body>
+
+</section>
+
+<footer>
+    <div class="about_us_footer">
+        <h1> Complaint Management System </h1>
+        <p> Address: Jinnah University for Women, Nazimabad, Pakistan
+            <br> Email: support@university.edu.pk 
+            <br> Phone: +92-300-1234567  
+        </p>
+
+        <p> <br> Quick Links: Home | About | Contact | Login </p>
+
+        <p> <br> © 2025 All Rights Reserved </p>
+
+    </div>
+</footer>
+
+</html>
