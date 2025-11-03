@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> CMS|ADMIN DASHBOARD </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<header>
+
+    <div class="admin_dash_header">
+        <img src="juw_logo.png" alt="University Logo">
+        <ul>
+            <li>
+                <h1> COMPLAINT MANAGEMENT SYSTEM </h1>
+            </li>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <li><a href="Log in.html">Log Out</a></li>
+        </ul>
+    </div>
+
+</header>
+
+<section class="admin_dash">
+
+    <body>
+
+        <div class="title">
+            <h1> WELCOME ADMIN! </h1>
+            <p> What would you like to manage today?</p>
+
+        </div>
+
+        <div class="admin_dash_boxes">
+            <a href="Authorize User.html"> <button> Authorize Users </button> </a> 
+            <a href="View Complaints.html"> <button> View complaints </button> </a> 
+            <a href="View Status.html"> <button> View Status </button> </a> 
+            <a href="Feedback & Suggestions.html"> <button> Feedback & Suggestions </button> </a>
+        </div>
+
+    </body>
+</section>
+
+</html>
