@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> CMS|STD SUBMIT COMPLAINT </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<header>
+
+    <div class="sub_comp">
+        <img src="juw_logo.png" alt="University Logo">
+        <ul>
+            <li>
+                <h1> COMPLAINT MANAGEMENT SYSTEM </h1>
+            </li>
+            <li><a href="Student Dashboard.html">Dashboard</a></li>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <li><a href="Log in.html">Log Out</a></li>
+        </ul>
+    </div>
+
+</header>
+
+<section class="sub_comp_body">
+
+    <body>
+
+        <div class="title">
+            <h1> FILE A COMPLAINT </h1>
+
+        </div>
+
+        <div class="sub_comp_form">
+            <form onsubmit="showMessage(); return false;">
+
+                <label for="category"> Complaint Category: </label>
+                <select name="category" id="category" required>
+                    <option value="" disabled selected> Select Complaint Category </option>
+                    <option>Academic Complaint</option>
+                    <option>Administrative Complaint</option>
+                    <option>Hostel Complaint</option>
+                    <option>Transport Complaint</option>
+                    <option>IT / Portal Complaint</option>
+                    <option>Cafeteria Complaint</option>
+                    <option>Security / Harassment Complaint</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+
+                <label for="complaint"> Complaint: </label> <br>
+                <textarea id="details" name="details" rows="5" cols="40" placeholder="Write your complaint here..." required></textarea>
+
+                <br>
+
+                <button type="submit"> Submit </button>
+            </form>
+
+            <script>
+                function showMessage() {
+                    alert("Your Complaint has been submitted successfully!");
+                }
+            </script>
+
+        </div>
+
+    </body>
+</section>
+
+</html>

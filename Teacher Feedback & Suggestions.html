@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> CMS|TEACHER F&S </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<header>
+
+    <div class="tchr_fb_sug">
+        <img src="juw_logo.png" alt="University Logo">
+        <ul>
+            <li>
+                <h1> COMPLAINT MANAGEMENT SYSTEM </h1>
+            </li>
+            <li><a href="Teacher Dashboard.html">Dashboard</a></li>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <li><a href="Log in.html">Log Out</a></li>
+        </ul>
+    </div>
+
+</header>
+
+<section class="tchr_fb_sug_body">
+
+    <body>
+        <div class="title">
+            <h1> FEEDBACK & SUGGESTIONS </h1>
+            <p> We value your feedback. Please share your thoughts, suggestions, <br>
+                or experience regarding the Complaint Management System. <br>
+                Your feedback helps us improve the platform and provide better support in the future.
+ </p>
+        </div>
+
+        <div class="tchr_fb_sug_form">
+            <form onsubmit="showMessage(); return false;">
+
+                <label for="feedback"> Feedback: </label> <br>
+                <textarea id="details" name="details" rows="5" cols="40" placeholder="Write your feedback here..." required></textarea>
+
+                <br>
+
+                <button type="submit"> Submit </button>
+            </form>
+
+            <script>
+                function showMessage() {
+                    alert("Your Complaint has been submitted successfully!");
+                }
+            </script>
+            </form>
+        </div>
+
+
+    </body>
+</section>
+
+</html>

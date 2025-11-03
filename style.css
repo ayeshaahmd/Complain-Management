@@ -1,0 +1,1528 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* HOME PAGE WORK */
+
+header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 500px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.main {
+    margin: auto;
+}
+
+body {
+    background-color: #231650;
+}
+
+.content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.title {
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+p {
+    color: #fff;
+    font-size: 30px;
+}
+
+.logo img {
+    float: right;
+    margin-right: 90px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    background-color: #00B7FF;
+    border-radius: 12px;
+    padding: 14px;
+}
+
+.btn a {
+    color: #fff;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #C028D4;
+    height: 400px;
+    margin-top: 800px;
+}
+
+.footer h1 {
+    color: #fff;
+    margin-left: 130px;
+    padding: 30px;
+}
+
+.footer p {
+    margin-left: 230px;
+}
+
+/* ABOUT US PAGE WORK */
+
+.about_us {
+    background-color: #231650;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about_us h1 {
+    margin: 0;
+    font-style: italic;
+    font-size: 60px;
+    margin-left: 500px;
+    margin-right: -200px;
+    padding: 30px;
+    margin-top: 400px;
+}
+
+.about_us p {
+    margin-left: 90px;
+    padding: 20px;
+}
+
+.about_us img {
+    float: right;
+    width: 500px;
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+.about_us_purpose {
+    color: #fff;
+}
+
+.about_us_purpose h1 {
+    margin: 0;
+    font-style: italic;
+    font-size: 60px;
+    margin-left: 50px;
+    padding: 30px;
+    margin-top: 900px;
+}
+
+.about_us_feature {
+    color: #fff;
+}
+
+.about_us_feature h1 {
+    margin: 0;
+    font-style: italic;
+    font-size: 60px;
+    margin-left: 50px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.about_us_feature ul {
+    margin: 0;
+}
+
+.about_us_feature ul li {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 430px;
+    margin-top: 30px;
+}
+
+.about_us_whymatter {
+    color: #fff;
+}
+
+.about_us_whymatter h1 {
+    margin: 0;
+    font-style: italic;
+    font-size: 60px;
+    margin-left: 50px;
+    padding: 30px;
+    margin-top: 650px;
+}
+
+.about_us_footer {
+    background-color: #C028D4;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.about_us_footer h1 {
+    color: #fff;
+    margin-left: 130px;
+    padding: 30px;
+}
+
+.about_us_footer p {
+    margin-left: 230px;
+}
+
+/* CONTACT US PAGE WORK */
+
+.contact {
+    background-color: #231650;
+    color: #fff;
+}
+
+.contact h1 {
+    margin: 0;
+    font-style: italic;
+    font-size: 60px;
+    margin-left: 650px;
+    margin-right: -200px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.contact p {
+    margin-left: 600px;
+    margin-right: -60px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact_form{
+    color: #fff;
+}
+
+.contact_form h1{
+    margin: 0;
+    font-style: italic;
+    font-size: 60px;
+    margin-left: 500px;
+    margin-right: -200px;
+    padding: 30px;
+    margin-top: 550px;
+}
+
+.contact_form p{
+    margin-left: 3px;
+    margin-right: 0px;
+    padding: 20px;
+}
+
+.contact_form form{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.contact_form form label{
+    margin: 0;
+    margin-left: 600px;
+    font-size: 30px;
+}
+
+.contact_form input, .contact_form textarea{
+    background-color: #00B7FF;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    width: 10%;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+.contact_form h2{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.contact_us_footer {
+    background-color: #C028D4;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.contact_us_footer h1 {
+    color: #fff;
+    margin-left: 130px;
+    padding: 30px;
+}
+
+.contact_us_footer p {
+    margin-left: 230px;
+}
+
+/* LOG IN PAGE WORK */
+
+.login h1{
+    margin: 0;
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 500px;
+    margin-right: -200px;
+    padding: 2px;
+    margin-top: -200px;
+}
+
+.login_box{
+    background-color: #2E5D5D;
+    padding: 20px;
+    width: 550px;
+    height: 360px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 300px;
+}
+
+.login_box p{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.login_box button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 14px;
+    border: none;
+}
+
+.login_footer {
+    background-color: #C028D4;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.login_footer h1 {
+    color: #fff;
+    margin-left: 130px;
+    padding: 30px;
+}
+
+.login_footer p {
+    margin-left: 230px;
+}
+
+/* ADMIN LOG IN PAGE WORK */
+
+.admin_login h1{
+    margin: 0;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 500px;
+    margin-right: -200px;
+    padding: 30px;
+    margin-top: -200px;
+}
+
+.admin_login_form{
+    color: #fff;
+    margin-top: -120px;
+}
+
+.admin_login_form label{
+    font-size: 30px;
+    margin-left: 600px;
+    margin-bottom: 2px;
+}
+
+.admin_login_form input, .admin_login_form textarea{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.admin_login_form button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+/* ADMIN DASHBOARD PAGE WORK */
+
+.admin_dash h1{
+    margin-left: 550px;
+    margin-right: -300px;
+    margin-top: -200px;
+}
+
+.admin_dash p{
+    margin-left: 600px;
+}
+
+.admin_dash_boxes{
+    margin-left: 400px;
+    margin-top: -10px;
+    align-items: center;
+}
+
+.admin_dash_boxes button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+/* AUTHORIZE USER PAGE WORK */
+
+.auth_user header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.auth_user img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+
+.auth_user ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.auth_user ul li {
+    display: inline-block;
+}
+
+.auth_user ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 400px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+.auth_user ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.auth_user_body h1{
+    margin-left:200px;
+    margin-right: -400px;
+    margin-top: -200px;
+}
+
+.auth_table table {
+    margin-left: 500px;
+    margin-top: -300px;
+    width: 30%;
+    font-size: 40px;
+    background-color: #fff;
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+.auth_table table, 
+.auth_table th, 
+.auth_table td {
+    border: 4px solid black;
+}
+
+.auth_table th, 
+.auth_table td {
+    padding: 20px;
+}
+
+/* VIEW COMPLAINT PAGE WORK  */
+
+.view_comp header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.view_comp img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+
+.view_comp ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.view_comp ul li {
+    display: inline-block;
+}
+
+.view_comp ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 400px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+.view_comp ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.view_comp_body h1{
+    margin-left:300px;
+    margin-right: -400px;
+    margin-top: -200px;
+}
+
+.view_comp_table table {
+    margin-left: 500px;
+    margin-top: -300px;
+    width: 30%;
+    font-size: 40px;
+    background-color: #fff;
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+.view_comp_table table, 
+.view_comp_table th, 
+.view_comp_table td {
+    border: 4px solid black;
+}
+
+.view_comp_table th, 
+.view_comp_table td {
+    padding: 20px;
+}
+
+/* VIEW STATUS PAGE WORK */
+
+.view_status header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.view_status img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+
+.view_status ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.view_status ul li {
+    display: inline-block;
+}
+
+.view_status ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 400px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+.view_status ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.view_status_body h1{
+    margin-left:300px;
+    margin-right: -400px;
+    margin-top: -200px;
+}
+
+.view_status_table table {
+    margin-left: 500px;
+    margin-top: -300px;
+    width: 30%;
+    font-size: 40px;
+    background-color: #fff;
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+.view_status_table table, 
+.view_status_table th, 
+.view_status_table td {
+    border: 4px solid black;
+}
+
+.view_status_table th, 
+.view_status_table td {
+    padding: 20px;
+}
+
+/* FEEDBACK & SUGGESTIONS PAGE WORK*/
+
+.fb_sug header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.fb_sug img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+
+.fb_sug ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.fb_sug ul li {
+    display: inline-block;
+}
+
+.fb_sug ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 400px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+.fb_sug ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.fb_sug_body h1{
+    margin-left:300px;
+    margin-right: -400px;
+    margin-top: -200px;
+}
+
+.fb_sug_table table {
+    margin-left: 550px;
+    margin-top: -300px;
+    width: 30%;
+    font-size: 40px;
+    background-color: #fff;
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+.fb_sug_table table, 
+.fb_sug_table th, 
+.fb_sug_table td {
+    border: 4px solid black;
+}
+
+.fb_sug_table th, 
+.fb_sug_table td {
+    padding: 20px;
+}
+
+/* STUDENT LOG IN PAGE WORK */
+
+.student_login h1{
+    margin: 0;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 500px;
+    margin-right: -200px;
+    padding: 30px;
+    margin-top: -200px;
+}
+
+.student_login_form{
+    color: #fff;
+    margin-top: -120px;
+}
+
+.student_login_form label{
+    font-size: 30px;
+    margin-left: 600px;
+    margin-bottom: 2px;
+}
+
+.student_login_form input, .student_login_form textarea{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.student_login_form button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+/* STUDENT SIGN UP PAGE WORK */
+
+.student_signup h1{
+    margin: 0;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 500px;
+    margin-right: -200px;
+    padding: 30px;
+    margin-top: -200px;
+}
+
+.student_signup_form{
+    color: #fff;
+    margin-top: -120px;
+}
+
+.student_signup_form label{
+    font-size: 30px;
+    margin-left: 600px;
+    margin-bottom: 2px;
+}
+
+.student_signup_form input, .student_signup_form textarea{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.student_signup_form button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+/* STUDENT DASHBOARD PAGE WORK */
+
+.stud_dash h1{
+    margin-left: 500px;
+    margin-right: -300px;
+    margin-top: -100px;
+}
+
+.stud_dash p{
+    margin-left: 500px;
+    margin-right: -300px;
+    margin-top: 50px;
+}
+
+.stud_dash_boxes{
+    margin-left: 500px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.stud_dash_boxes button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 150px;
+}
+
+/* STUDENT SUBMIT NEW COMPLAINT PAGE WORK */
+
+.sub_comp header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.sub_comp img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+
+.sub_comp ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.sub_comp ul li {
+    display: inline-block;
+}
+
+.sub_comp ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 400px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+.sub_comp ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.sub_comp_body h1{
+    margin-left: 400px;
+    margin-right: -300px;
+    margin-top: -200px;
+}
+
+.sub_comp_form{
+    margin-left: 450px;
+    padding: 3px;
+}
+
+.sub_comp_form label{
+    color: #fff;
+    font-size: 30px;
+}
+
+.sub_comp_form select, .sub_comp_form option{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.sub_comp_form textarea{
+    width: 400px;
+    margin-left: 150px;
+}
+
+.sub_comp_form button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+/* STUDENT VIEW STATUS PAGE WORK */
+
+.stud_view_status header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.stud_view_status img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+
+.stud_view_status ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.stud_view_status ul li {
+    display: inline-block;
+}
+
+.stud_view_status ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 400px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+.stud_view_status ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.stud_view_status_body h1{
+    margin-left:300px;
+    margin-right: -400px;
+    margin-top: -200px;
+}
+
+.stud_view_status_table table {
+    margin-left: 500px;
+    margin-top: -300px;
+    width: 30%;
+    font-size: 40px;
+    background-color: #fff;
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+.stud_view_status_table table, 
+.stud_view_status_table th, 
+.stud_view_status_table td {
+    border: 4px solid black;
+}
+
+.stud_view_status_table th, 
+.stud_view_status_table td {
+    padding: 20px;
+}
+
+/* STUDENT FEEDBACK & SUGGESTIONS PAGE WORK*/
+
+.Stud_fb_sug header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.Stud_fb_sug img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+.Stud_fb_sug ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.Stud_fb_sug ul li {
+    display: inline-block;
+}
+
+.Stud_fb_sug ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 400px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+.Stud_fb_sug ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.stud_fb_sug_body h1{
+    margin-left: 400px;
+    margin-right: -500px;
+    margin-top: -200px;
+}
+
+.stud_fb_sug_body p{
+    margin-left: 400px;
+    margin-right: -400px;
+}
+
+.stud_fb_sug_form{
+    margin-left: 450px;
+    padding: 3px;
+}
+
+.stud_fb_sug_form label{
+    color: #fff;
+    font-size: 40px;
+}
+
+.stud_fb_sug_form textarea{
+    width: 400px;
+    height: 100px;
+    margin-left: 170px;
+}
+
+.stud_fb_sug_form button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+/* TEACHER LOG IN PAGE WORK */
+
+.teacher_login h1{
+    margin: 0;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 500px;
+    margin-right: -200px;
+    padding: 30px;
+    margin-top: -200px;
+}
+
+.teacher_login_form{
+    color: #fff;
+    margin-top: -120px;
+}
+
+.teacher_login_form label{
+    font-size: 30px;
+    margin-left: 600px;
+    margin-bottom: 2px;
+}
+
+.teacher_login_form input, .teacher_login_form textarea{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.teacher_login_form button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+/* TEACHER SIGN UP PAGE WORK */
+
+.teacher_signup h1{
+    margin: 0;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 500px;
+    margin-right: -200px;
+    padding: 30px;
+    margin-top: -200px;
+}
+
+.teacher_signup_form{
+    color: #fff;
+    margin-top: -120px;
+}
+
+.teacher_signup_form label{
+    font-size: 30px;
+    margin-left: 600px;
+    margin-bottom: 2px;
+}
+
+.teacher_signup_form input, .teacher_signup_form textarea{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.teacher_signup_form button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+/* TEACHER DASHBOARD PAGE WORK */
+
+.tchr_dash h1{
+    margin-left: 500px;
+    margin-right: -300px;
+    margin-top: -100px;
+}
+
+.tchr_dash p{
+    margin-left: 500px;
+    margin-right: -300px;
+    margin-top: 50px;
+}
+
+.tchr_dash_boxes{
+    margin-left: 500px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.tchr_dash_boxes button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 150px;
+}
+
+/* TEACHER SUBMIT NEW COMPLAINT PAGE WORK */
+
+.tchr_sub_comp header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.tchr_sub_comp img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+
+.tchr_sub_comp ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.tchr_sub_comp ul li {
+    display: inline-block;
+}
+
+.tchr_sub_comp ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 400px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+.tchr_sub_comp ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.tchr_sub_comp_body h1{
+    margin-left: 400px;
+    margin-right: -300px;
+    margin-top: -200px;
+}
+
+.tchr_sub_comp_form{
+    margin-left: 450px;
+    padding: 3px;
+}
+
+.tchr_sub_comp_form label{
+    color: #fff;
+    font-size: 30px;
+}
+
+.tchr_sub_comp_form select, .tchr_sub_comp_form option{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.tchr_sub_comp_form textarea{
+    width: 400px;
+    margin-left: 150px;
+}
+
+.tchr_sub_comp_form button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+/* TEACHER VIEW STATUS PAGE WORK */
+
+.tchr_view_status header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.tchr_view_status img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+
+.tchr_view_status ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.tchr_view_status ul li {
+    display: inline-block;
+}
+
+.tchr_view_status ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 400px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+.tchr_view_status ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.tchr_view_status_body h1{
+    margin-left:300px;
+    margin-right: -400px;
+    margin-top: -200px;
+}
+
+.tchr_view_status_table table {
+    margin-left: 500px;
+    margin-top: -300px;
+    width: 30%;
+    font-size: 40px;
+    background-color: #fff;
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+.tchr_view_status_table table, 
+.tchr_view_status_table th, 
+.tchr_view_status_table td {
+    border: 4px solid black;
+}
+
+.tchr_view_status_table th, 
+.tchr_view_status_table td {
+    padding: 20px;
+}
+
+/* TEACHER FEEDBACK & SUGGESTIONS PAGE WORK*/
+
+.tchr_fb_sug header {
+    background-color: #C028D4;
+    padding: 10px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.tchr_fb_sug img {
+    float: left;
+    margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+
+.tchr_fb_sug ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 90px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.tchr_fb_sug ul li {
+    display: inline-block;
+}
+
+.tchr_fb_sug ul li h1 {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 400px;
+    font-size: 20px;
+    font-style: italic;
+    top: 2px;
+
+}
+
+.tchr_fb_sug ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+    border: 3px solid transparent;
+}
+
+.tchr_fb_sug_body h1{
+    margin-left: 400px;
+    margin-right: -500px;
+    margin-top: -200px;
+}
+
+.tchr_fb_sug_body p{
+    margin-left: 400px;
+    margin-right: -400px;
+}
+
+.tchr_fb_sug_form{
+    margin-left: 450px;
+    padding: 3px;
+}
+
+.tchr_fb_sug_form label{
+    color: #fff;
+    font-size: 40px;
+}
+
+.tchr_fb_sug_form textarea{
+    width: 400px;
+    height: 100px;
+    margin-left: 170px;
+}
+
+.tchr_fb_sug_form button{
+    background-color: #00B7FF;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

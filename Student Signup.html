@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CMS | Student Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="main">
+            <img src="juw_logo.png" alt="University Logo">
+            <ul>
+                <li><h1>COMPLAINT MANAGEMENT SYSTEM</h1></li>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="student_signup">
+        <div class="title">
+            <h1>SIGN UP TO YOUR ACCOUNT:</h1>
+        </div>
+
+        <div class="student_signup_form">
+            <form action="student_signup.php" method="post">
+
+                <label> Username: </label>
+                <input type="text" name="username" placeholder="Enter your username" required> <br><br><br><br>
+
+                <label> Email: </label>
+                <input type="email" name="email" placeholder="Enter your email" required> <br><br><br><br>
+
+                <label> Password: </label>
+                <input type="password" name="password" placeholder="Enter your password" required> <br><br><br><br>
+
+                <label> Confirm Password: </label>
+                <input type="password" name="confirm_password" placeholder="Re-enter your password" required> <br><br><br><br>
+
+                <button type="submit"> Sign Up </button>
+
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
